@@ -1,0 +1,93 @@
+expression 'Sample File' = ```
+		let
+		    // Connect directly to the container (Source is the container table)
+		    Source = AzureStorage.DataLake("https://lstor.dfs.core.windows.net/naircont"),
+		
+		    // Source already returns a table of items (files & folders)
+		    Container = Source,  
+		
+		    // recursion function same as Option A
+		    GetAllFiles = (tbl as table) =>
+		        let
+		            FilesHere = Table.SelectRows(tbl, each Record.FieldOrDefault(_, "IsFolder", false) = false),
+		            FoldersHere = Table.SelectRows(tbl, each Record.FieldOrDefault(_, "IsFolder", false) = true),
+		            ChildFiles =
+		                if Table.IsEmpty(FoldersHere) then
+		                    #table(Table.ColumnNames(FilesHere), {})
+		                else
+		                    Table.Combine(List.Transform(FoldersHere[Data], each GetAllFiles(_))),
+		            AllFiles = if Table.IsEmpty(FilesHere) then ChildFiles else
+		                       if Table.IsEmpty(ChildFiles) then FilesHere else Table.Combine({FilesHere, ChildFiles})
+		        in
+		            AllFiles,
+		
+		    AllFiles = GetAllFiles(Container),
+		
+		    JSONFiles = Table.SelectRows(AllFiles, each Text.EndsWith(Text.Lower(Record.FieldOrDefault(_, "Name", "")), ".json")),
+		
+		    AddContent = Table.AddColumn(JSONFiles, "JSONContent", each try Json.Document([Content]) otherwise null),
+		
+		    AllFieldNames =
+		        List.RemoveNulls(
+		            List.Distinct(
+		                List.Combine(
+		                    List.Transform(
+		                        List.RemoveNulls(AddContent[JSONContent]),
+		                        each if Value.Is(_, type record) then Record.FieldNames(_) else {}
+		                    )
+		                )
+		            )
+		        ),
+		
+		    Expanded =
+		        if List.IsEmpty(AllFieldNames) then
+		            AddContent
+		        else
+		            Table.ExpandRecordColumn(AddContent, "JSONContent", AllFieldNames, AllFieldNames),
+		
+		    KeepCols = Table.SelectColumns(Expanded, List.Intersect({Table.ColumnNames(Expanded), {"Name","FolderPath","Content"}}) & AllFieldNames),
+		    Navigation1 = KeepCols{0}[Content]
+		in
+		    Navigation1
+		```
+	lineageTag: 602d4713-987f-4b6f-9f2b-8b5235c027de
+	queryGroup: 'Transform File from Query6\Helper Queries'
+
+	annotation PBI_ResultType = Binary
+
+expression Parameter1 = #"Sample File" meta [IsParameterQuery=true, BinaryIdentifier=#"Sample File", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: a48dfe26-3917-4420-b20d-ce835c0b1b30
+	queryGroup: 'Transform File from Query6\Helper Queries'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transform Sample File' =
+		let
+		    Source = Json.Document(Parameter1),
+		    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+		    #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"NamTit", "Views", "guests", "timestamp", "poster", "scrap_time"}, {"NamTit", "Views", "guests", "timestamp", "poster", "scrap_time"}),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"NamTit", type text}, {"Views", Int64.Type}, {"guests", Int64.Type}, {"timestamp", type any}, {"poster", type text}, {"scrap_time", type datetime}})
+		in
+		    #"Changed Type"
+	lineageTag: ba55b974-ed9c-4203-a9f8-31d3b00e7932
+	queryGroup: 'Transform File from Query6'
+
+	annotation PBI_ResultType = Table
+
+expression 'Transform File' =
+		let
+		    Source = (Parameter1 as binary) => let
+		    Source = Json.Document(Parameter1),
+		    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+		    #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"NamTit", "Views", "guests", "timestamp", "poster", "scrap_time"}, {"NamTit", "Views", "guests", "timestamp", "poster", "scrap_time"}),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"NamTit", type text}, {"Views", Int64.Type}, {"guests", Int64.Type}, {"timestamp", type any}, {"poster", type text}, {"scrap_time", type datetime}})
+		in
+		    #"Changed Type"
+		in
+		    Source
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transform Sample File""}" ]
+	lineageTag: 559294f4-527a-4df7-b808-fe9ddd61f502
+	queryGroup: 'Transform File from Query6\Helper Queries'
+
+	annotation PBI_ResultType = Function
+

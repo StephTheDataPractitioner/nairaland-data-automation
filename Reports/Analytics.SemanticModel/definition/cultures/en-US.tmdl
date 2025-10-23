@@ -1,0 +1,4308 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "naira": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "naira": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "naira.nam_tit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "NamTit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nam tit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NamTit": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "naira.view": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "view": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "understanding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "scrutiny": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "analysis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "inspection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "naira.guest": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "guests"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "guest": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visitor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "caller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "invitee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boarder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lodger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "visitant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "naira.timestamp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "timestamp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "timestamp": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "naira.poster": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "poster"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "poster": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artwork": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "photograph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "advertisement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "announcement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "placard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "notice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "naira.scrap_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "scrap_time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scrap_time": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "scrap duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "scrap interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "scrap moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "scrap period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "scrap timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.scrap_time.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "VariationSource": "scrap_time",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "time date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.scrap_time.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "VariationSource": "scrap_time",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "scrap time yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "time yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scrap duration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap interval year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "duration year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "scrap period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.scrap_time.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "VariationSource": "scrap_time",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "scrap time qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "time qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "scrap duration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap interval quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "duration quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "scrap period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.scrap_time.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "VariationSource": "scrap_time",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "scrap time mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "time mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scrap duration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap interval month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "duration month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "scrap period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.scrap_time.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "VariationSource": "scrap_time",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scrap time day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "scrap duration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap interval day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "scrap moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "duration day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interval day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "scrap period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "scrap timetable day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "timetable day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "naira.post": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Posts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "upright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "workplace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "naira.forum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Forum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "forum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "environment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "medium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "setting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "aid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "assembly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "roundtable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "naira.forum_of_top_posts_by_viewsforumviews": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Forum of Top Posts by Views(Forum&Views)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "forum of top posts by views(forum&views)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "forum of top posts by views": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.forums_count_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Forums Count (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "forums count (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "forums count": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.front_page_post_count_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Front Page Post Count (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "front page post count (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "front page post count": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.highest_viewed_post_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Highest Viewed Post (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "highest viewed post (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "highest viewed post": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_forum_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Forum (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least forum (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least forum": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Count": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "naira.max_guests_post_name_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Max Guests Post Name (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max guests post name (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "max guests post name": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_forum_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Forum (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top forum (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top forum": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Count": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_forum_guests": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Forum guests"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top forum guests": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "guests": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "forum guests": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "best forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper forum guest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "top forum visitor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top forum person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "forum visitor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "forum person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_forum_post_count_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Forum Post Count (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top forum post count (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top forum post count": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_forum_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Forum Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top forum views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "forum views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "best forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper forum view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "top forum opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top forum interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top forum assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "forum opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_guests_post_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Guests Post (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top guests post (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top guests post": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_poster_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Poster (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top poster (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top poster": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_poster_views_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Poster Views (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top poster views (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top poster views": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_postviews": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Post(Views)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top post(views)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top post": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "best post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "first post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "leading post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "maximum post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "peak post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "upper post(view)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "naira.last_accessed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Last accessed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last accessed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "end accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "final accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "closing accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "concluding accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "finishing accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "former accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "latest accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "latter accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "past accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "remaining accessed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_postviews": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Post(Views)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least post(views)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least post": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_poster_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Poster (Views)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least poster (views)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least poster": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_guests_post_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Guests Post (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least guests post (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least guests post": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_poster_guests_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Poster Guests (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least poster guests (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least poster guests": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_poster_views_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Poster Views (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least poster views (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "least poster views": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_forum_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Forum Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least forum views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "forum views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "least forum opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "least forum interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "least forum assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "forum opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "forum interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "forum assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "least forum understanding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "naira.leasts_forum_count_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Leasts Forum Count (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "leasts forum count (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leasts forum count": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.least_forum_name_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Least Forum Name Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "least forum name views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "name views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "forum name views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "least forum nickname view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "least forum title view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "least forum label view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "least forum tag view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "forum nickname view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "forum title view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "forum label view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "forum tag view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "nickname view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "title view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "naira.total_views_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Total Views (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total views (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total views": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.front_page_views_last_access_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Front Page Views Last Access Time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "front page views last access time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "access time": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last access time": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "views last access time": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "page views last access time": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "page view last access duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "page view last access interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "page view last access moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "view last access duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "view last access interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "view last access moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "last access duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "last access interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "last access moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "page view last access period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        }
+			      ]
+			    },
+			    "naira.total_guests_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Total Guests (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total guests (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total guests": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_poster_guests_last_24Hrs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Poster Guests (Last 24Hrs)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top poster guests (last 24Hrs)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top poster guests": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "naira.front_page_summary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Front Page Summary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "front page summary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "page summary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "front page synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "front page explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "front page extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "front page summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "page synopsis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "page explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "page extraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "page summarisation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "front page review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "front page abstract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "naira.top_forum_bar_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Naira",
+			          "ConceptualProperty": "Top Forum bar Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top forum bar views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bar views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "forum bar views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "top forum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "best forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper forum bar view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "best forum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "first forum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "leading forum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "maximum forum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "naira_scrap_time_date_hierarchy_has_naira_scrap_time_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira.scrap_time.date_hierarchy": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.date_hierarchy"
+			          }
+			        },
+			        "naira.scrap_time.month": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.scrap_time.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scrap_time_date_hierarchies_have_scrap_time_months"
+			        }
+			      ]
+			    },
+			    "naira_scrap_time_date_hierarchy_has_naira_scrap_time_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira.scrap_time.date_hierarchy": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.date_hierarchy"
+			          }
+			        },
+			        "naira.scrap_time.quarter": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.scrap_time.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scrap_time_date_hierarchies_have_scrap_time_quarters"
+			        }
+			      ]
+			    },
+			    "naira_scrap_time_date_hierarchy_has_naira_scrap_time_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira.scrap_time.date_hierarchy": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.date_hierarchy"
+			          }
+			        },
+			        "naira.scrap_time.year": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.scrap_time.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scrap_time_date_hierarchies_have_scrap_time_years"
+			        }
+			      ]
+			    },
+			    "naira_scrap_time_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira.scrap_time": {
+			          "Target": {
+			            "Entity": "naira.scrap_time"
+			          }
+			        },
+			        "naira.scrap_time.date_hierarchy": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.scrap_time"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scrap_times_have_scrap_time_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "naira_has_top_forum_bar_views": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_forum_bar_views": {
+			          "Target": {
+			            "Entity": "naira.top_forum_bar_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_forum_bar_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_forum_bar_views"
+			        }
+			      ]
+			    },
+			    "naira_has_front_page_summary": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.front_page_summary": {
+			          "Target": {
+			            "Entity": "naira.front_page_summary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.front_page_summary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_front_page_summary"
+			        }
+			      ]
+			    },
+			    "naira_has_top_poster_guests_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_poster_guests_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_poster_guests_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_poster_guests_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_poster_guests_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_total_guests_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.total_guests_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.total_guests_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.total_guests_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_total_guests_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_front_page_views_last_access_time": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.front_page_views_last_access_time": {
+			          "Target": {
+			            "Entity": "naira.front_page_views_last_access_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.front_page_views_last_access_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_front_page_views_last_access_time"
+			        }
+			      ]
+			    },
+			    "naira_has_total_views_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.total_views_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.total_views_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.total_views_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_total_views_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_forum_name_views": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_forum_name_views": {
+			          "Target": {
+			            "Entity": "naira.least_forum_name_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_forum_name_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_forum_name_views"
+			        }
+			      ]
+			    },
+			    "naira_has_leasts_forum_count_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.leasts_forum_count_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.leasts_forum_count_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.leasts_forum_count_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_leasts_forum_count_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_forum_views": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_forum_views": {
+			          "Target": {
+			            "Entity": "naira.least_forum_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_forum_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_forum_views"
+			        }
+			      ]
+			    },
+			    "naira_has_least_poster_views_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_poster_views_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.least_poster_views_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_poster_views_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_poster_views_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_poster_guests_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_poster_guests_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.least_poster_guests_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_poster_guests_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_poster_guests_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_guests_post_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_guests_post_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.least_guests_post_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_guests_post_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_guests_post_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_poster_views": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_poster_views": {
+			          "Target": {
+			            "Entity": "naira.least_poster_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_poster_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_poster_views"
+			        }
+			      ]
+			    },
+			    "naira_has_least_postviews": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_postviews": {
+			          "Target": {
+			            "Entity": "naira.least_postviews"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_postviews"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_postviews"
+			        }
+			      ]
+			    },
+			    "naira_has_last_accessed": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.last_accessed": {
+			          "Target": {
+			            "Entity": "naira.last_accessed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.last_accessed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_last_accessed"
+			        }
+			      ]
+			    },
+			    "naira_has_top_postviews": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_postviews": {
+			          "Target": {
+			            "Entity": "naira.top_postviews"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_postviews"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_postviews"
+			        }
+			      ]
+			    },
+			    "naira_has_top_poster_views_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_poster_views_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_poster_views_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_poster_views_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_poster_views_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_top_poster_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_poster_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_poster_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_poster_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_poster_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_top_guests_post_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_guests_post_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_guests_post_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_guests_post_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_guests_post_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_top_forum_views": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_forum_views": {
+			          "Target": {
+			            "Entity": "naira.top_forum_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_forum_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_forum_views"
+			        }
+			      ]
+			    },
+			    "naira_has_top_forum_post_count_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_forum_post_count_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_forum_post_count_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_forum_post_count_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_forum_post_count_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_top_forum_guests": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_forum_guests": {
+			          "Target": {
+			            "Entity": "naira.top_forum_guests"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_forum_guests"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_forum_guests"
+			        }
+			      ]
+			    },
+			    "naira_has_top_forum_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.top_forum_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.top_forum_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.top_forum_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_top_forum_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_max_guests_post_name_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.max_guests_post_name_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.max_guests_post_name_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.max_guests_post_name_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_max_guests_post_name_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_least_forum_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.least_forum_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.least_forum_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.least_forum_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_least_forum_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_highest_viewed_post_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.highest_viewed_post_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.highest_viewed_post_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.highest_viewed_post_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_highest_viewed_post_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_front_page_post_count_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.front_page_post_count_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.front_page_post_count_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.front_page_post_count_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_front_page_post_count_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_forums_count_last_24Hrs": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.forums_count_last_24Hrs": {
+			          "Target": {
+			            "Entity": "naira.forums_count_last_24Hrs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.forums_count_last_24Hrs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_forums_count_last_24Hrs"
+			        }
+			      ]
+			    },
+			    "naira_has_forum_of_top_posts_by_viewsforumviews": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.forum_of_top_posts_by_viewsforumviews": {
+			          "Target": {
+			            "Entity": "naira.forum_of_top_posts_by_viewsforumviews"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.forum_of_top_posts_by_viewsforumviews"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_forum_of_top_posts_by_viewsforumviews"
+			        }
+			      ]
+			    },
+			    "naira_has_forum": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.forum": {
+			          "Target": {
+			            "Entity": "naira.forum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.forum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_forums"
+			        }
+			      ]
+			    },
+			    "naira_has_post": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.post": {
+			          "Target": {
+			            "Entity": "naira.post"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.post"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_posts"
+			        }
+			      ]
+			    },
+			    "naira_has_scrap_time": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.scrap_time": {
+			          "Target": {
+			            "Entity": "naira.scrap_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_scrap_times"
+			        }
+			      ]
+			    },
+			    "naira_has_poster": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.poster": {
+			          "Target": {
+			            "Entity": "naira.poster"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.poster"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_posters"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "naira.poster"
+			            },
+			            "Verbs": [
+			              {
+			                "post": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "naira"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "posters_post_naira"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.poster"
+			            },
+			            "Object": {
+			              "Role": "naira"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "posters_have_naira"
+			        }
+			      ]
+			    },
+			    "naira_has_timestamp": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.timestamp": {
+			          "Target": {
+			            "Entity": "naira.timestamp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.timestamp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_timestamps"
+			        }
+			      ]
+			    },
+			    "naira_has_guest": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.guest": {
+			          "Target": {
+			            "Entity": "naira.guest"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.guest"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_guests"
+			        }
+			      ]
+			    },
+			    "naira_has_view": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.view": {
+			          "Target": {
+			            "Entity": "naira.view"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.view"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_views"
+			        }
+			      ]
+			    },
+			    "naira_has_nam_tit": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.nam_tit": {
+			          "Target": {
+			            "Entity": "naira.nam_tit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira"
+			            },
+			            "Object": {
+			              "Role": "naira.nam_tit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "naira_have_nam_tits"
+			        }
+			      ]
+			    },
+			    "naira_is_scrapped_on_scrap_time": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira": {
+			          "Target": {
+			            "Entity": "naira"
+			          }
+			        },
+			        "naira.scrap_time": {
+			          "Target": {
+			            "Entity": "naira.scrap_time"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "naira.scrap_time"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "scrap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "naira"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "naira_are_scrapped_on_scrap_times"
+			        }
+			      ]
+			    },
+			    "naira_scrap_time_date_hierarchy_has_naira_scrap_time_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Naira"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "naira.scrap_time.date_hierarchy": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.date_hierarchy"
+			          }
+			        },
+			        "naira.scrap_time.day": {
+			          "Target": {
+			            "Entity": "naira.scrap_time.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "naira.scrap_time.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "naira.scrap_time.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scrap_time_date_hierarchies_have_scrap_time_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.0.0"
+			    }
+			  }
+			}
+		contentType: json
+

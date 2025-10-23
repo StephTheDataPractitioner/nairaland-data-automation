@@ -1,0 +1,5 @@
+relationship 9618d8e5-30f6-4f15-a06a-f865f5a6057e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Naira.scrap_time
+	toColumn: LocalDateTable_94924ef4-ee53-4c74-a76b-011405c5f3ff.Date
+
