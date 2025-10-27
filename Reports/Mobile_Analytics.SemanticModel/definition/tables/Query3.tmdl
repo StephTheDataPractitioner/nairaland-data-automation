@@ -1,0 +1,175 @@
+table Query3
+	lineageTag: 298f5fc9-78ee-4f3e-b6a0-d8a9e6cc4046
+
+	column NamTit
+		dataType: string
+		lineageTag: be1c04c6-2a4a-4652-8c1a-65884a7a6286
+		summarizeBy: none
+		sourceColumn: NamTit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Views
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f7b5566-ebe4-4248-9a97-42a8c5ddd3cd
+		summarizeBy: sum
+		sourceColumn: Views
+
+		annotation SummarizationSetBy = Automatic
+
+	column guests
+		dataType: int64
+		formatString: 0
+		lineageTag: 6fdc7a1f-dcde-4180-b615-4ccf7ccea78d
+		summarizeBy: sum
+		sourceColumn: guests
+
+		annotation SummarizationSetBy = Automatic
+
+	column timestamp
+		dataType: string
+		lineageTag: 145298c4-0680-4e54-bae5-0fdd8acb43b2
+		summarizeBy: none
+		sourceColumn: timestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	column poster
+		dataType: string
+		lineageTag: d94c2dc2-9138-49fc-aebd-d0422c8d2dd3
+		summarizeBy: none
+		sourceColumn: poster
+
+		annotation SummarizationSetBy = Automatic
+
+	column scrap_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8de58a2a-29e5-46c6-b0b5-01955f0d45bc
+		summarizeBy: none
+		sourceColumn: scrap_time
+
+		variation Variation
+			isDefault
+			relationship: 949b892e-a67f-43d5-a357-0bcbfdd44c40
+			defaultHierarchy: LocalDateTable_0a70a3e1-d09a-4638-8c61-4f07f67931ac.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Query3 = m
+		mode: import
+		source =
+				let
+				    // Connect to the ADLS Gen2 container
+				    Source = AzureStorage.DataLake("https://lstor.dfs.core.windows.net/naircont"),
+				
+				    // Keep only JSON files
+				    JSONFiles = Table.SelectRows(Source, each Text.EndsWith(Text.Lower([Name]), ".json")),
+				
+				    // Decode folder path (replace %3D with =, %2F with /)
+				    AddDecodedPath = Table.AddColumn(
+				        JSONFiles,
+				        "DecodedPath",
+				        each Text.Replace(Text.Replace([Folder Path], "%3D", "="), "%2F", "/")
+				    ),
+				
+				    // Extract year, month, day, and hour from folder structure
+				    AddParsedDateTime = Table.AddColumn(
+				        AddDecodedPath,
+				        "DateTimeKey",
+				        each
+				            let
+				                Path = Text.Lower([DecodedPath]),
+				                Year = try Number.FromText(Text.BetweenDelimiters(Path, "year=", "/")) otherwise null,
+				                Month = try Number.FromText(Text.BetweenDelimiters(Path, "month=", "/")) otherwise null,
+				                Day = try Number.FromText(Text.BetweenDelimiters(Path, "day=", "/")) otherwise null,
+				                Hour = try Number.FromText(Text.BetweenDelimiters(Path, "hour=", "/")) otherwise 0,
+				                DT = try #datetime(Year, Month, Day, Hour, 0, 0) otherwise null
+				            in
+				                DT
+				    ),
+				
+				    // Keep only valid datetime rows
+				    ValidFiles = Table.SelectRows(AddParsedDateTime, each [DateTimeKey] <> null),
+				
+				    // Identify the latest DateTimeKey
+				    LatestDateTime =
+				        if Table.IsEmpty(ValidFiles) then null else List.Max(ValidFiles[DateTimeKey]),
+				
+				    // Get the most recent JSON file row
+				    LatestFile =
+				        if LatestDateTime <> null then
+				            Table.SelectRows(ValidFiles, each [DateTimeKey] = LatestDateTime)
+				        else
+				            #table({}, {}),
+				
+				    // Extract the binary content from that file
+				    LatestFileBinary =
+				        if Table.IsEmpty(LatestFile) then null else LatestFile{0}[Content],
+				
+				    // Parse JSON safely
+				    ParsedJSON =
+				        if LatestFileBinary = null then
+				            null
+				        else
+				            try Json.Document(LatestFileBinary) otherwise null,
+				
+				    // Convert JSON to table regardless of structure
+				    AsTable =
+				        if ParsedJSON = null then
+				            #table({}, {})
+				        else if Value.Is(ParsedJSON, type list) then
+				            Table.FromList(ParsedJSON, Splitter.SplitByNothing(), {"Column1"})
+				        else if Value.Is(ParsedJSON, type record) then
+				            Table.FromRecords({ParsedJSON})
+				        else
+				            #table({}, {}),
+				
+				    // Detect nested records and expand automatically
+				    ColumnsToExpand =
+				        if Table.IsEmpty(AsTable) then
+				            {}
+				        else if Table.HasColumns(AsTable, "Column1") then
+				            List.Distinct(
+				                List.Combine(
+				                    List.Transform(
+				                        Table.ToRecords(AsTable),
+				                        each if Record.HasFields(_, "Column1") then Record.FieldNames(Record.Field(_, "Column1")) else {}
+				                    )
+				                )
+				            )
+				        else
+				            Table.ColumnNames(AsTable),
+				
+				    Expanded =
+				        if Table.IsEmpty(AsTable) then
+				            AsTable
+				        else if Table.HasColumns(AsTable, "Column1") and not List.IsEmpty(ColumnsToExpand) then
+				            Table.ExpandRecordColumn(AsTable, "Column1", ColumnsToExpand, ColumnsToExpand)
+				        else
+				            AsTable,
+				
+				    // Apply data types safely
+				    #"Changed Type" = try Table.TransformColumnTypes(Expanded, {
+				        {"NamTit", type text},
+				        {"Views", Int64.Type},
+				        {"guests", Int64.Type},
+				        {"timestamp", type any},
+				        {"poster", type text},
+				        {"scrap_time", type datetime}
+				    }) otherwise Expanded,
+				
+				    // Filter out rows where Views = 0 (if column exists)
+				    #"Filtered Rows" =
+				        if Table.HasColumns(#"Changed Type", "Views") then
+				            Table.SelectRows(#"Changed Type", each ([Views] <> 0))
+				        else
+				            #"Changed Type"
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

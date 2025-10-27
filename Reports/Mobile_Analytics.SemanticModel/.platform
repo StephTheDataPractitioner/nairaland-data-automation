@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Report",
-    "displayName": "Analytics"
+    "type": "SemanticModel",
+    "displayName": "Mobile_Analytics"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "502c322a-fe1c-4040-b279-7b3e5fb50f75"
+    "logicalId": "204ea77f-993d-473b-80fd-aeedf4114174"
   }
 }

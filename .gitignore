@@ -1,0 +1,9 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Selenium driver
+ScrapingFolder/chromedriver.exe
+
+# Ignore compiled Python files
+ScrapingFolder/__pycache__/
+ScrapingFolder/*.pyc
