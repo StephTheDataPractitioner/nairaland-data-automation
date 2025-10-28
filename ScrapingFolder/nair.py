@@ -22,7 +22,7 @@ blob_service_client = BlobServiceClient(
     credential=STORAGE_ACCOUNT_KEY
 )
 
-t
+
 container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 
 blob_service_client = BlobServiceClient(
