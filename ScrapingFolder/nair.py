@@ -25,12 +25,11 @@ blob_service_client = BlobServiceClient(
 
 container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 
-
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--window-size=1920,1080")
 
 
-service = Service(executable_path="chromedriver.exe")
+service = Service(executable_path=r"C:\Users\chikaodili.attamah\Desktop\ProjFold\ScrapingFolder\chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 print("Opening Nairaland front page...")
