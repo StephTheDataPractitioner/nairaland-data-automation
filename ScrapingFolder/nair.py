@@ -25,12 +25,6 @@ blob_service_client = BlobServiceClient(
 
 container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 
-blob_service_client = BlobServiceClient(
-    account_url=f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net/",
-    credential=STORAGE_ACCOUNT_KEY
-)
-container_client = blob_service_client.get_container_client(CONTAINER_NAME)
-
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--window-size=1920,1080")
